@@ -4,7 +4,7 @@
       <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-8 gap-y-16 gap-x-12">
         <div class="col-span-2 md:col-span-2 lg:col-span-2 lg:pr-8">
           
-          <h1><img class="w-32 xl:w-48" src="<?php echo RAVIG_IMG_DIR . '/logo.png' ?>" alt=""></h1>
+          <h1><a href="<?php echo home_url('/'); ?>"><img class="w-32 xl:w-48" src="<?php echo RAVIG_IMG_DIR . '/logo.png' ?>" alt=""></a></h1>
           <p class="text-base leading-relaxed text-gray-600 mt-7">
             I'm Ravi Gupta, the founder of ravi-gupta.com. Here, I teach beginners Get More Traffic More Customers More
             Revenue With Digital Marketing Join Our Newsletter

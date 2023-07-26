@@ -63,9 +63,9 @@
 <header class="sticky top-0 left-0 z-50 w-full bg-white shadow-lg">
     <nav class="flex flex-wrap items-center justify-between w-full max-w-screen-xl p-6 py-3 mx-auto lg:px-8 lg:py-5">
       <div class="flex items-center flex-shrink-0 mr-6 text-black">
-        <span class="text-xl font-semibold tracking-tight">
+        <a href="<?php echo home_url('/'); ?>" class="text-xl font-semibold tracking-tight">
           <img class="w-32 xl:w-48" src="<?php echo RAVIG_IMG_DIR . '/logo.png' ?>" alt="">
-        </span>
+        </a>
       </div>
       <div id="listicon" class="block lg:hidden">
         <button id="toggelbtn" onclick="showmenu()"
