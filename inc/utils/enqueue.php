@@ -1,4 +1,7 @@
 <?php
+
+
+
 $ravig_scripts = array(
     'styles' => array(
         'main' => array(
@@ -28,6 +31,24 @@ $ravig_scripts = array(
             'deps' => array(),
             'in_footer' => true,
             'condition' => function() { return is_front_page(); } 
+        ),
+        'slider' => array(
+            'src' => RAVIG_JS_DIR . '/slider.js',
+            'deps' => array(),
+            'in_footer' => true,
+            'condition' => function() { 
+                $services_page_id = '7'; 
+                $current_page_parent_id = wp_get_post_parent_id( get_the_ID() );
+                return $current_page_parent_id == $services_page_id; } 
+        ),
+        'services' => array(
+            'src' => RAVIG_JS_DIR . '/services.js',
+            'deps' => array(),
+            'in_footer' => true,
+            'condition' => function() { 
+                $services_page_id = '7'; 
+                $current_page_parent_id = wp_get_post_parent_id( get_the_ID() );
+                return $current_page_parent_id == $services_page_id; } 
         ),
        
     ),
