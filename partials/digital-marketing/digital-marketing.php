@@ -162,11 +162,11 @@
                     receive yours.
                   </p>
                   <div class="w-[60%]">
-                    <button
+                    <a href="<?php echo home_url('/contact-us'); ?>"
                       class="w-full justify-center px-3 py-2 mt-2 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-orange-500 focus:bg-orange-500"
                     >
                       Request a proposal
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -176,3 +176,4 @@
       </div>
     </section>
     <!--digital marketing services end-->
+    <!-- TAB-2-2 -->

@@ -17,7 +17,7 @@
           <div>
             <p class="my-2 mb-5 text-lg leading-relaxed text-black">
 
-              Ravi Gupta was launched in 2018. For the last 5 years, we’ve tried and tested hundreds oftools. Here are
+              Ravi Gupta was launched in 2018. For the last 8 years, we’ve tried and tested hundreds oftools. Here are
               FOUR of our most recommended tools for all kinds of bloggers. The linksmentioned here are affiliate links,
               so when you purchase something, we get a smallcommission.🙂
             </p>
