@@ -343,10 +343,10 @@ responsiveness.</p>
                 </iframe>
               </div>
               <div class="w-full">
-                <button
+                <a href="<?php echo home_url('/'); ?>"
                   class="w-full items-center justify-center px-3 py-2 mt-2 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]">
                   View Design portfilio
-                </button>
+                </a>
               </div>
 
             </div>

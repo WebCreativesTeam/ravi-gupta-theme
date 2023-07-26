@@ -38,7 +38,7 @@
             </div>
           </div>
           <div class="pt-5">
-            <button
+            <a href="<?php echo home_url('/'); ?>"
               class="px-6 py-3 text-[18px] sm:text-[22px] font-sans text-left text-white rounded-md bg-orange-600 hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
             >
                See Happy Clients’ Testimonials
@@ -52,7 +52,7 @@
                   d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
                 />
               </svg>
-            </button>
+            </a>
           </div>
         </div>
         <div class="md:w-[45%] flex justify-center pt-10 md:pt-0 lg:pt-0">

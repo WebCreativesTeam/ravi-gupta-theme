@@ -1204,7 +1204,7 @@
                 >
                   <div class="px-1 xl:px-2">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1219,7 +1219,7 @@
                 >
                   <div class="xl:px-5">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1233,7 +1233,7 @@
                 >
                   <div class="xl:px-5">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1248,7 +1248,7 @@
                 >
                   <div class="xl:px-5">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1262,7 +1262,7 @@
                 >
                   <div class="">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"

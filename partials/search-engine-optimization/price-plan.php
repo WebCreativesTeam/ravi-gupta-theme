@@ -142,7 +142,7 @@
                 </ul>
                 <div class="mt-2 border-t-2 border-gray-300">
                   <a
-                    href="#"
+                    href="<?php echo home_url('/contact-us'); ?>"
                     title=""
                     class="inline-flex items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                     role="button"
@@ -279,7 +279,7 @@
                 </ul>
                 <div class="mt-2 border-t-2 border-gray-300">
                   <a
-                    href="#"
+                    href="<?php echo home_url('/contact-us'); ?>"
                     title=""
                     class="inline-flex items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                     role="button"
@@ -416,7 +416,7 @@
                 </ul>
                 <div class="mt-2 border-t-2 border-gray-300">
                   <a
-                    href="#"
+                    href="<?php echo home_url('/contact-us'); ?>#"
                     title=""
                     class="inline-flex items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                     role="button"

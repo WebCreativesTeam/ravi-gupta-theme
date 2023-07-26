@@ -1,6 +1,6 @@
 <!--6.Table Section Starts -->
 <section
-      class="flex justify-center w-full min-h-screen pt-12 pb-10 align-top"
+      class="flex justify-center w-full min-h-screen pt-12 pb-10 align-top" id="plan"
     >
       <div
         class="w-[90%] px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl sm:w-[80%] align-middle flex-col"
@@ -1014,7 +1014,7 @@
                 >
                   <div class="lg:px-3">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1029,7 +1029,7 @@
                 >
                   <div class="lg:px-3">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1043,7 +1043,7 @@
                 >
                   <div class="lg:px-3">
                     <a
-                      href="#"
+                      href="<?php echo home_url('/contact-us'); ?>"
                       title=""
                       class="inline-flex whitespace-nowrap items-center justify-center w-full px-4 py-4 mt-8 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md group-hover:bg-gray-800 hover:bg-gray-600 focus:bg-gray-600"
                       role="button"
@@ -1077,13 +1077,14 @@
         </p>
         <div class="flex items-center justify-center">
           <div class="w-[60%]">
-            <button
+            <a href="#plan"
               class="w-full items-center justify-center px-3 py-2 mt-2 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
             >
               View Social Media Advertising Campaign Pricing
-            </button>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <!-- Table Section Ends -->
+<!-- TAB-2-3    #plan -->
