@@ -136,11 +136,11 @@
         </div>
 
         <div class="max-w-2xl pt-10 mx-auto text-center">
-          <button
-            class="p-2 text-[18px] sm:text-[22px] font-sans text-center text-white rounded-md bg-[#ee4a03] hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
+          <a href="<?php echo home_url('/'); ?>"
+            class="p-2 cursor-pointer text-[18px] sm:text-[22px] font-sans text-center text-white rounded-md bg-[#ee4a03] hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
           >
             Read More Client Stories
-          </button>
+          </a>
         </div>
       </div>
     </section>
