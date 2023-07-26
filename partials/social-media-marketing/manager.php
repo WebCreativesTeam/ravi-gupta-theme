@@ -36,7 +36,7 @@
             <button
               class="px-6 py-3 text-[18px] sm:text-[22px] font-sans text-left text-white rounded-md bg-orange-600 hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
             >
-              See 1000+ Happy Clients’ Testimonials
+               See Happy Clients’ Testimonials
               <svg
                 class="inline-block w-[18px] sm:w-[22px] fill-white"
                 xmlns="http://www.w3.org/2000/svg"

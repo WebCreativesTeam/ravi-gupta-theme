@@ -36,7 +36,7 @@
             <button
               class="p-2 text-[18px] sm:text-[22px] font-sans text-center text-white rounded-md bg-[#ee4a03] hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
             >
-              See 1000+ Happy Clients’ Testimonials
+               See Happy Clients’ Testimonials
             </button>
           </div>
         </div>

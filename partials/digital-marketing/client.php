@@ -54,11 +54,11 @@
                 </p>
               </blockquote>
               <div class="inline-block">
-                <button
+                <a href="<?php echo home_url('/'); ?>" 
                   class="w-[200px] items-center justify-center px-6 py-4 mt-3 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
                 >
                   View Case Study
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -94,11 +94,11 @@
                 </p>
               </blockquote>
               <div class="inline-block">
-                <button
+                <a href="<?php echo home_url('/'); ?>" 
                   class="w-[200px] items-center justify-center px-6 py-4 mt-3 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
                 >
                   View Case Study
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -133,11 +133,11 @@
                 </p>
               </blockquote>
               <div class="inline-block">
-                <button
+                <a href="<?php echo home_url('/'); ?>" 
                   class="w-[200px] items-center justify-center px-6 py-4 mt-3 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
                 >
                   View Case Study
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -172,11 +172,11 @@
                 </p>
               </blockquote>
               <div class="inline-block">
-                <button
+                <a href="<?php echo home_url('/'); ?>" 
                   class="w-[200px] items-center justify-center px-6 py-4 mt-3 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
                 >
                   View Case Study
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -212,11 +212,11 @@
                 </p>
               </blockquote>
               <div class="inline-block">
-                <button
+                <a href="<?php echo home_url('/'); ?>" 
                   class="w-[200px] items-center justify-center px-6 py-4 mt-3 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
                 >
                   View Case Study
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -251,11 +251,11 @@
                 </p>
               </blockquote>
               <div class="inline-block">
-                <button
+                <a href="<?php echo home_url('/'); ?>" 
                   class="w-[200px] items-center justify-center px-6 py-4 mt-3 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
                 >
                   View Case Study
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -263,3 +263,4 @@
       </div>
     </section>
     <!--Inside our 93% client satisfaction rate.... end-->
+    <!-- TAB-1-1 -->

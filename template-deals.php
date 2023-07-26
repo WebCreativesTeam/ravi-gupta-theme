@@ -33,12 +33,7 @@
                         <button type="submit" class="inline-flex items-center justify-center px-3 py-2 mt-3 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]">
                             Get It Now
                         </button>
-                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" class="inline-flex items-center justify-center pb-0.5 mt-5 text-base font-semibold text-[#ee4a03] transition-all duration-200 border-b-2 border-transparent hover:border-[#ee4a03] focus:border-[#ee4a03]">
-                            Read More
-                            <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                            </svg>
-                        </a>
+                        
                     </div>
                 </div>
             </div>

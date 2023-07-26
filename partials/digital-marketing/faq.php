@@ -219,7 +219,7 @@
         <p class="text-center text-gray-600 textbase mt-9">
           Didn’t find the answer you are looking for?
           <a
-            href="#"
+            href="<?php echo home_url('/contact-us'); ?>"
             title=""
             class="font-medium text-[#ee4a03] transition-all duration-200 hover:text-orange-700 focus:text-orange-700 hover:underline"
             >Contact our support</a
