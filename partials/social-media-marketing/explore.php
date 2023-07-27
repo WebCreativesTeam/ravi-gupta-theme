@@ -25,11 +25,11 @@
             </div>
           </div>
           <div class="pt-5">
-            <button
+            <a
               class="p-2 px-5 text-[18px] sm:text-[22px] font-sans text-center text-white rounded-md bg-[#ee4a03] hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
             >
               View Case Studies
-            </button>
+          </a>
           </div>
         </div>
         <div class="md:w-[45%] pt-10 md:pt-0 lg:pt-0">

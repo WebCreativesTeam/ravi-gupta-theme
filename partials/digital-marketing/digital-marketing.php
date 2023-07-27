@@ -162,12 +162,10 @@
                     receive yours.
                   </p>
                   <div class="w-[60%]">
-                    <a href="<?php echo home_url('/contact-us'); ?>"
-                      class="w-full justify-center px-3 py-2 mt-2 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-orange-500 focus:bg-orange-500"
-                    >
+                    <a href="#" class="block w-full justify-center px-3 py-2 mt-2 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-orange-500 focus:bg-orange-500 no-underline">
                       Request a proposal
                     </a>
-                  </div>
+                  </div> 
                 </div>
               </div>
             </div>

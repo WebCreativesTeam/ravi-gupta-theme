@@ -115,11 +115,11 @@
               struggling with complex coding. Our CMS streamlines your content management process,
               saving you time and effort.</p>
 
-            <div class="w-full">
-              <button
-                class="w-full items-center justify-center px-3 py-2 mt-2 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]">
+            <div 
+            class="w-full flex items-center justify-center px-3 py-2 mt-2 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]">
+              <a>
                 Request a Proposal
-              </button>
+              </a>
             </div>
 
           </div>
