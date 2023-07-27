@@ -1,5 +1,5 @@
 <!--6.Our Web Development Process Starts-------------->
-<section class="relative py-10 pb-20 sm:py-16 lg:py-24">
+<section id="process-section" class="relative py-10 pb-20 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="md:flex md:flex-wrap md:justify-between">
@@ -1108,78 +1108,57 @@
                     class="pl-10 border border-gray-200 rounded-b-2xl"
                     id="tablelist"
                   >
-                    <ul class="list-disc">
+                  <ul class="list-disc scroll-to-section">
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="banner-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >ravi-gupta.com: Cutting-edge web development from an
-                          experienced team</a
+                          >Web Development for Big Ideas</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="custom-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our web development philosophy</a
+                          >Custom Website Development</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="services-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >How our web developers create</a
+                          >Web Development Services</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="process-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our developers are idea machines management
-                          company</a
+                          >Notable Web Development Process.</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="feedback-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >The scope of our developers’ skills management
-                          services help your business grow?</a
-                        >
-                      </li>
-                      <li
-                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
-                      >
-                        <a
-                          href=""
-                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Developing industry solutions</a
-                        >
-                      </li>
-                      <li
-                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
-                      >
-                        <a
-                          href=""
-                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Get your ideal web development solution today</a
+                          >Clients FeedBack</a
                         >
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div>
+                <!-- <div>
                   <div
                     class="flex flex-row justify-between rounded-2xl h-[100px] bg-gray-100 my-2"
                     id="tablebtn1"
@@ -1281,9 +1260,9 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
 
-                <div>
+                <!-- <div>
                   <div
                     class="flex flex-row justify-between rounded-2xl h-[100px] bg-gray-100 my-2"
                     id="tablebtn1"
@@ -1385,7 +1364,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

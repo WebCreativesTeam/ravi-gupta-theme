@@ -1,9 +1,10 @@
 <!--How to choose the best SEO management company....Starts-->
-<section class="relative py-10 pb-20 sm:py-16 lg:py-24">
+<section id="choosing-section" class="relative py-10 pb-20 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="md:flex md:flex-wrap md:justify-between">
-            <div class="p-10 md:w-[67%]">
+            <!-- <div class="p-10 md:w-[67%]"> -->
+            <div class="p-10">
               <div class="">
                 <h2
                   class="text-2xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl"
@@ -336,7 +337,7 @@
                 engines. Trust us for measurable results!
               </p>
             </div>
-            <div class="md:w-[30%] relative">
+            <!-- <div class="md:w-[30%] relative">
               <div class="sticky rounded-md top-32">
                 <div>
                   <div
@@ -442,7 +443,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

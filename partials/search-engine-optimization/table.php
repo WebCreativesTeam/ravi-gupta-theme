@@ -1,5 +1,5 @@
 <!--Table Section Starts -->
-<section
+<section id="service-section"
       class="flex justify-center w-full min-h-screen pt-12 pb-10 align-top"
     >
       <div

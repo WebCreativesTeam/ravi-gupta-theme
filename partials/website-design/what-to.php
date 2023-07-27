@@ -1,5 +1,5 @@
 <!--7.What to do..... start-->
-<section class="relative py-10 pb-20 sm:py-16 lg:py-24">
+<section id="innovation-section" class="relative py-10 pb-20 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div class="flex flex-col justify-center mx-auto text-left">
         <div class="md:flex md:flex-wrap md:justify-between">
@@ -138,29 +138,35 @@
                   </span>
                 </div>
                 <div class="pl-10 border border-gray-200 rounded-b-2xl" id="tablelist">
-                  <ul class="list-disc">
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">ravi-gupta.com: Cutting-edge web development from an experienced team</a></li>
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Our web development philosophy</a></li>
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">How our web developers create</a></li>
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Our developers are idea machines
-                        management company</a></li>
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">The scope of our developers’ skills
-                        management services help your business grow?</a></li>
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Developing industry solutions</a></li>
-                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href=""
-                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Get your ideal web development solution today</a></li>
+                <ul class="list-disc scroll-to-section">
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="banner-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Crafting Web Experiences that Inspire:Ravi Gupta's Web Design Services!</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="creative-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Creative Attention, A to Z</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="works-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Our Web Design: How it works?</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="top-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Ravi Gupta: Top Website Design Partner.</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="innovation-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Innovation Redefined: Expert Designers, Years of Experience!</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="award-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">"Transparent Award-Winning Web Design!"</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="why-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Why partner with ravi-gupta.com for website design services?</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="performance-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Performance-Driven Business Website.</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="feedback-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Clients FeedBack</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="faq-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">web design FAQs</a></li>
+                    <li class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"><a href="wd-services-section"
+                        class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400">Web Design Services</a></li>
                   </ul>
                 </div>
   
               </div>
 
-              <div>
+              <!-- <div>
                 <div class="flex flex-row justify-between rounded-2xl h-[100px] bg-gray-100 my-2" id="tablebtn1" onclick="toggleElement('tablelist1','flip12')">
                   <h1 class="px-10 py-8 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left hover:text-[#ee4a03]">
                     Related Resources 
@@ -193,7 +199,7 @@
                   </ul>
                 </div>
   
-              </div>
+              </div> -->
   
             </div>
             

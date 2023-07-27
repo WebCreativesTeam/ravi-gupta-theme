@@ -1,5 +1,5 @@
 <!--8.Explore our Dynamic Marketing Services Plans.... start-->
-<section class="flex justify-center w-full pt-12 pb-10 align-top">
+<section id="explore-section" class="flex justify-center w-full pt-12 pb-10 align-top">
       <div
         class="w-[90%] px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl sm:w-[80%] flex align-middle flex-col justify-center md:flex-row md:justify-between"
       >

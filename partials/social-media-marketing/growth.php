@@ -1,5 +1,5 @@
 <!---13.Unlocking Website Potential: Growth Through Comprehensive SEO Audits start-->
-<section class="py-10 sm:py-16 lg:py-24" id="websiteSeoAudits">
+<section id="audits-section" class="py-10 sm:py-16 lg:py-24" id="websiteSeoAudits">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="p-8">

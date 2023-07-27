@@ -1,5 +1,5 @@
 <!--1.Banner Section Starts -->
-<section class="flex items-center justify-around pt-5 pb-20 bg-black bg-right bg-no-repeat bg-cover" style="
+<section id="banner-section" class="flex items-center justify-around pt-5 pb-20 bg-black bg-right bg-no-repeat bg-cover" style="
         background-image: url('<?php echo RAVIG_IMG_DIR . '/bg-r.png' ?>');
       ">
     <div class="w-full lg:w-[78%] min-h-screen flex justify-center align-middle flex-col">

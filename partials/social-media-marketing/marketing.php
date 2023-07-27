@@ -1,5 +1,5 @@
 <!---11.marketing services work?....start-->
-<section class="relative py-10 sm:py-16 lg:py-24">
+<section id="work-section" class="relative py-10 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="p-8">
@@ -10,7 +10,8 @@
             </h2>
           </div>
           <div class="md:flex md:flex-wrap md:justify-between">
-            <div class="p-10 md:w-[67%]">
+            <!-- <div class="p-10 md:w-[67%]"> -->
+            <div class="p-10">
               <p
                 class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
               >
@@ -80,7 +81,7 @@
                 </li>
               </ul>
             </div>
-            <div class="md:w-[30%] relative">
+            <!-- <div class="md:w-[30%] relative">
               <div class="sticky top-32">
                 <div
                   class="flex flex-row justify-between rounded-2xl h-[100px] bg-gray-100 my-2"
@@ -183,7 +184,7 @@
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

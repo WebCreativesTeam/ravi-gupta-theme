@@ -1,5 +1,5 @@
 <!--9.Revolutionise Your Online Presence with Web Development... start-->
-<section class="relative py-10 pb-20 sm:py-16 lg:py-24">
+<section id="web-section" class="relative py-10 pb-20 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="md:flex md:flex-wrap md:justify-between">
@@ -361,78 +361,129 @@
                     class="pl-10 border border-gray-200 rounded-b-2xl"
                     id="tablelist"
                   >
-                    <ul class="list-disc">
+                  <ul class="list-disc scroll-to-section">
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="banner-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >ravi-gupta.com: Cutting-edge web development from an
-                          experienced team</a
+                          >"Boost ROI: Custom Social Media Marketing"</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="revenue-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our web development philosophy</a
+                          >Ignite Revenue: Customizable Social Media Services</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="unlock-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >How our web developers create</a
+                          >Unleash Custom Social Media Marketing</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="plan-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our developers are idea machines management
-                          company</a
+                          >Find Your Ideal Social Media Marketing Plan.</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="Expand-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >The scope of our developers’ skills management
-                          services help your business grow?</a
+                          >Expand with Ravi Gupta's Social Media Services.</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="explore-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Developing industry solutions</a
+                          >Discover Marketing Plans.</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="web-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Get your ideal web development solution today</a
+                          >Revolutionize Online Presence: Web Developmen</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="growth-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Enhancing Online Presence, Driving Growth</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="work-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Ravi Gupta's Social Media Marketing: How it works?</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="smm-faq-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Social Media Marketing Services FAQs"</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="audits-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Unlock Website Potential: SEO Audits</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="feedback-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Clients FeedBack</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="faq-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Social Media Marketing FAQs</a
                         >
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div>
+                <!-- <div>
                   <div
                     class="flex flex-row justify-between rounded-2xl h-[100px] bg-gray-100 my-2"
                     id="tablebtn1"
@@ -534,7 +585,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
