@@ -1,5 +1,4 @@
 <?php
-
 define('RAVIG_DIR_URI', get_template_directory_uri());
 define('RAVIG_DIR_PATH', get_template_directory());
 
@@ -17,7 +16,7 @@ include_once(RAVIG_UTILS_DIR . '/enqueue.php');
 include_once(RAVIG_UTILS_DIR . '/helpers.php');
 include_once(RAVIG_TYPES_DIR . '/types.php');
 
-
+add_filter('wpcf7_autop_or_not', '__return_false');
 // Adding functionality for Trending Posts
 function add_trending_meta_box() {
     add_meta_box(

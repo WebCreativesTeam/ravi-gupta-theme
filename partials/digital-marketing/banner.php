@@ -90,12 +90,13 @@
                 </div>
               </div>
 
-              <button
+              <input
                 type="submit"
+                value="Send Me a Proposal
                 class="inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-[#ee4a03] border border-transparent rounded-md sm:mt-0 sm:rounded-l-none sm:w-auto hover:bg-gray-900 focus:bg-gray-900"
-              >
-                Send Me a Proposal
-              </button>
+              />
+                
+            
             </div>
           </form>
         </div>
