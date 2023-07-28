@@ -22,7 +22,7 @@
             <div class="relative">
               <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                 <img class="object-cover w-full h-full"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-1.jpg" alt="" />
+                  src="<?php echo RAVIG_IMG_DIR . '/blog-post-1.jpg' ?>" alt="" />
               </a>
             </div>
             <p class="mt-5 text-2xl font-semibold">
@@ -45,7 +45,7 @@
             <div class="relative">
               <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                 <img class="object-cover w-full h-full"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-2.jpg" alt="" />
+                  src="<?php echo RAVIG_IMG_DIR . '/blog-post-2.jpg' ?>" alt="" />
               </a>
             </div>
 
@@ -69,7 +69,7 @@
             <div class="relative">
               <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                 <img class="object-cover w-full h-full"
-                  src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/2/blog-post-3.jpg" alt="" />
+                  src="<?php echo RAVIG_IMG_DIR . '/blog-post-3.jpg' ?>" alt="" />
               </a>
             </div>
             <p class="mt-5 text-2xl font-semibold">

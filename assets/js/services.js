@@ -1,25 +1,32 @@
 
-var seoManagementServices = document.querySelectorAll('.seo-management-services>li a');
+var seoManagementServices = document.querySelectorAll('.scroll-to-section>li a');
 var interval;
 
 for (var i = 0; i < seoManagementServices.length; i++) {
     seoManagementServices[i].addEventListener('click', function (event) {
         event.preventDefault();
         var targetSectionId = this.getAttribute('href');
+        console.log(targetSectionId);
 
         var targetSection = document.getElementById(targetSectionId);
-
-        interval = setInterval(scrollVertically, 20, targetSection);
-    });
-
-    function scrollVertically(targetSection) {
         var targetCoordinates = targetSection.getBoundingClientRect();
-        if (targetCoordinates.top <= 0) {
-            clearInterval(interval);
-            return;
-        }
-        window.scrollBy(0, 20);
-    }
+        var distance = targetCoordinates.top;
+
+        interval = setInterval(function() {
+            var currentScrollY = window.scrollY;
+            var scrollStep = distance / 20; // Adjust the smoothness here (higher value = smoother scroll)
+            
+            if (Math.abs(distance) < Math.abs(scrollStep)) {
+                // If the remaining distance is less than the scroll step, scroll directly to the target position and clear the interval
+                window.scrollTo(0, currentScrollY + distance);
+                clearInterval(interval);
+            } else {
+                // Otherwise, scroll by the scroll step
+                window.scrollBy(0, scrollStep);
+                distance -= scrollStep;
+            }
+        }, 20);
+    });
 }
 
 //slide

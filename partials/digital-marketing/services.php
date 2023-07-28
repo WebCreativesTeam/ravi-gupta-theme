@@ -1,5 +1,5 @@
 <!--7.digital marketing services... start-->
-<section class="relative py-10 pb-20 sm:py-16 lg:py-24">
+<section id="digital-marketing-section" class="relative py-10 pb-20 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="md:flex md:flex-wrap md:justify-between">
@@ -187,78 +187,110 @@
                     class="pl-10 border border-gray-200 rounded-b-2xl"
                     id="tablelist"
                   >
-                    <ul class="list-disc">
+                  <ul class="list-disc scroll-to-section">
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="bannerSection"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >ravi-gupta.com: Cutting-edge web development from an
-                          experienced team</a
+                          >Boost Sales with Our Digital Marketing!</a>
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="seo-roi"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >SEO: 22:1 ROI. Full Digital Marketing: Even Better.</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="maximize-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our web development philosophy</a
+                          >Maximize Digital Impact with Tailored Services!</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="client-93-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >How our web developers create</a
+                          >93% Client Satisfaction Rate</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="digital-marketing-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our developers are idea machines management
-                          company</a
+                          >Ravi Gupta's Digital Marketing: How it works?</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="services-include-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >The scope of our developers’ skills management
-                          services help your business grow?</a
+                          >Our Digital Marketing Services: Included?</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="preferred-choice-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Developing industry solutions</a
+                          >Ravi Gupta's Digital Marketing: Preferred Choice?</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="services-faqs-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Get your ideal web development solution today</a
+                          >Digital Marketing Services FAQs</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="revenue-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Maximize Web Revenue with Digital Marketing.</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="client-feedback-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Clients' Feedback</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="faq-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Digital Marketing FAQs</a
                         >
                       </li>
                     </ul>
                   </div>
                 </div>
 
-                <div>
+                <!-- <div>
                   <div
                     class="flex flex-row justify-between rounded-2xl h-[100px] bg-gray-100 my-2"
                     id="tablebtn1"
@@ -360,7 +392,7 @@
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

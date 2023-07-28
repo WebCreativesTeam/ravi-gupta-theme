@@ -1,5 +1,5 @@
 <!--8.Explore our Dynamic Marketing Services Plans.... start-->
-<section class="flex justify-center w-full pt-12 pb-10 align-top">
+<section id="explore-section" class="flex justify-center w-full pt-12 pb-10 align-top">
       <div
         class="w-[90%] px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl sm:w-[80%] flex align-middle flex-col justify-center md:flex-row md:justify-between"
       >
@@ -25,11 +25,11 @@
             </div>
           </div>
           <div class="pt-5">
-            <button
+            <a
               class="p-2 px-5 text-[18px] sm:text-[22px] font-sans text-center text-white rounded-md bg-[#ee4a03] hover:bg-orange-500 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ..."
             >
               View Case Studies
-            </button>
+          </a>
           </div>
         </div>
         <div class="md:w-[45%] pt-10 md:pt-0 lg:pt-0">

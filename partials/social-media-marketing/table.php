@@ -1,5 +1,5 @@
 <!--6.Table Section Starts -->
-<section
+<section id="plan-section"
       class="flex justify-center w-full min-h-screen pt-12 pb-10 align-top" id="plan"
     >
       <div
@@ -1077,9 +1077,7 @@
         </p>
         <div class="flex items-center justify-center">
           <div class="w-[60%]">
-            <a href="#plan"
-              class="w-full items-center justify-center px-3 py-2 mt-2 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]"
-            >
+            <a href="#" class="w-full flex items-center justify-center px-3 py-2 mt-2 font-semibold text-[#ee4a03] transition-all duration-200 border-2 border-[#ee4a03] bg-white hover:text-white rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03] no-underline">
               View Social Media Advertising Campaign Pricing
             </a>
           </div>

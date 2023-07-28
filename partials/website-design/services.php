@@ -1,5 +1,5 @@
 <!--13.web design services start-->
-<section class="py-10 sm:py-16 lg:py-24">
+<section id="wd-services-section" class="py-10 sm:py-16 lg:py-24">
     <div class="w-[90%] px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div
         class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">

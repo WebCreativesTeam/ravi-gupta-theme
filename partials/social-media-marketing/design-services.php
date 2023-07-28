@@ -1,5 +1,5 @@
 <!--4.design services start-->
-<section class="relative py-10 pb-20 sm:py-16 lg:py-24">
+<section id="unlock-section" class="relative py-10 pb-20 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="md:flex md:flex-wrap md:justify-between">
@@ -97,11 +97,9 @@
                     receive yours.
                   </p>
                   <div class="w-[60%]">
-                    <button
-                      class="w-full justify-center px-3 py-2 mt-2 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-orange-500 focus:bg-orange-500"
-                    >
+                    <a href="#" class="block w-full justify-center px-3 py-2 mt-2 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-orange-500 focus:bg-orange-500 no-underline">
                       Request a proposal
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

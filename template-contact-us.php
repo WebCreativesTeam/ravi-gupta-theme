@@ -4,7 +4,7 @@
 <section
       class="py-10 bg-black bg-right bg-no-repeat bg-cover sm:py-16 lg:py-18"
       style="
-        background-image: url('https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/general/text-stats-image-messages-logos/bg-r.png');
+        background-image: url('<?php echo RAVIG_IMG_DIR . '/bg-r.png' ?>');
       "
     >
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -67,7 +67,7 @@
           <div class="flex flex-col justify-center align-middle">
             <img
               loading="lazy"
-              src="https://www.webfx.com/wp-content/themes/fx/assets/img/footer/footer-roket.png"
+              src="<?php echo RAVIG_IMG_DIR . '/footer-roket.webp' ?>"
               alt="Sapce Img"
               width="180px"
             />

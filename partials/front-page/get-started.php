@@ -5,7 +5,7 @@
       <div class="grid grid-cols-1 gap-4 mt-10 md:grid-cols-2 lg:grid-cols-4 md:gap-4 lg:gap-4">
         <div class="p-5 border rounded-lg IWT-cards hover:border-gray-800 hover:shadow-2xl">
           <div class="w-20 h-20 bg-white rounded-full lg:w-24 lg:h-24">
-            <img src="https://cdn-icons-png.flaticon.com/512/1323/1323780.png" alt="" class="w-20 p-4 lg:w-24 ">
+            <img src="<?php echo RAVIG_IMG_DIR . '/1323780.png' ?>" alt="" class="w-20 p-4 lg:w-24 ">
           </div>
           <div class="mt-10 font-sans lg:mt-15">
             <p class="mt-5 text-2xl font-semibold">
@@ -20,7 +20,7 @@
         </div>
         <div class="p-5 border rounded-lg IWT-cards hover:border-gray-800 hover:shadow-2xl">
           <div class="w-20 h-20 bg-white rounded-full lg:w-24 lg:h-24">
-            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135673.png" alt="" class="w-20 p-4 lg:w-24 ">
+            <img src="<?php echo RAVIG_IMG_DIR . '/3135673.png' ?>" alt="" class="w-20 p-4 lg:w-24 ">
           </div>
           <div class="mt-10 font-sans lg:mt-15">
             <p class="mt-5 text-2xl font-semibold">
@@ -35,7 +35,7 @@
         </div>
         <div class="p-5 border rounded-lg IWT-cards hover:border-gray-800 hover:shadow-2xl">
           <div class="w-20 h-20 bg-white rounded-full lg:w-24 lg:h-24">
-            <img src="https://cdn-icons-png.flaticon.com/512/5050/5050214.png" alt="" class="w-20 p-4 lg:w-24 ">
+            <img src="<?php echo RAVIG_IMG_DIR . '/5050214.png' ?>" alt="" class="w-20 p-4 lg:w-24 ">
           </div>
           <div class="mt-10 font-sans lg:mt-15">
             <p class="mt-5 text-2xl font-semibold">
@@ -50,7 +50,7 @@
         </div>
         <div class="p-5 border rounded-lg IWT-cards hover:border-gray-800 hover:shadow-2xl">
           <div class="w-20 h-20 bg-white rounded-full lg:w-24 lg:h-24">
-            <img src="https://cdn-icons-png.flaticon.com/512/8629/8629298.png" alt="" class="w-20 p-4 lg:w-24 ">
+            <img src="<?php echo RAVIG_IMG_DIR . '/8629298.png' ?>" alt="" class="w-20 p-4 lg:w-24 ">
           </div>
           <div class="mt-10 font-sans lg:mt-15">
             <p class="mt-5 text-2xl font-semibold">

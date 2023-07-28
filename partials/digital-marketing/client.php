@@ -1,5 +1,5 @@
 <!--6.Inside our 93% client satisfaction rate.... start-->
-<section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
+<section id="client-93-section" class="py-10 bg-gray-100 sm:py-16 lg:py-24">
       <div class="w-[90%] px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="mx-auto text-center">
           <h2
@@ -28,7 +28,7 @@
           >
             <div class="px-8 pt-8">
               <img
-                src="https://www.webfx.com/wp-content/uploads/2022/02/hydroworx4-1.png"
+                src="<?php echo RAVIG_IMG_DIR . '/hydroworx4-1.png' ?>"
                 alt=""
               />
             </div>
@@ -68,7 +68,7 @@
           >
             <div class="px-8 pt-8">
               <img
-                src="https://www.webfx.com/wp-content/uploads/2021/11/koa-hiking-tips.jpg"
+                src="<?php echo RAVIG_IMG_DIR . '/koa-hiking-tips.jpg' ?>"
                 alt=""
               />
             </div>
@@ -108,7 +108,7 @@
           >
             <div class="px-8 pt-8">
               <img
-                src="https://www.webfx.com/wp-content/uploads/2022/02/hydroworx4-1.png"
+                src="<?php echo RAVIG_IMG_DIR . '/hydroworx4-1.png' ?>"
                 alt=""
               />
             </div>
@@ -147,7 +147,7 @@
           >
             <div class="px-8 pt-8">
               <img
-                src="https://www.webfx.com/wp-content/uploads/2022/02/hydroworx4-1.png"
+                src="<?php echo RAVIG_IMG_DIR . '/hydroworx4-1.png' ?>"
                 alt=""
               />
             </div>
@@ -186,7 +186,7 @@
           >
             <div class="px-8 pt-8">
               <img
-                src="https://www.webfx.com/wp-content/uploads/2021/11/koa-hiking-tips.jpg"
+                src="<?php echo RAVIG_IMG_DIR . '/koa-hiking-tips.jpg' ?>"
                 alt=""
               />
             </div>
@@ -226,7 +226,7 @@
           >
             <div class="px-8 pt-8">
               <img
-                src="https://www.webfx.com/wp-content/uploads/2022/02/hydroworx4-1.png"
+                src="<?php echo RAVIG_IMG_DIR . '/hydroworx4-1.png' ?>"
                 alt=""
               />
             </div>

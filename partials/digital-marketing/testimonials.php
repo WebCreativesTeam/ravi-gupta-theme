@@ -1,5 +1,5 @@
 <!--12.Hear From Our Clients start-->
-<section class="py-10 sm:py-16 lg:py-24">
+<section id="client-feedback-section" class="py-10 sm:py-16 lg:py-24">
       <div class="w-[90%] px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto text-center">
           <h2

@@ -1,6 +1,6 @@
 <!--1.Banner Section Starts -->
-<section class="flex items-center justify-around pt-5 pb-20 bg-black bg-right bg-no-repeat bg-cover" style="
-        background-image: url('https://www.webfx.com/wp-content/themes/fx/assets/img/blocks/general/text-stats-image-messages-logos/bg-r.png');
+<section id="banner-section" class="flex items-center justify-around pt-5 pb-20 bg-black bg-right bg-no-repeat bg-cover" style="
+        background-image: url('<?php echo RAVIG_IMG_DIR . '/bg-r.png' ?>');
       ">
     <div class="w-full lg:w-[78%] min-h-screen flex justify-center align-middle flex-col">
       <div class="flex flex-col justify-center ml-5 mr-5 align-middle lg:ml-40 lg:mr-40">
@@ -35,11 +35,7 @@ experience that resonates, connects, and leaves a lasting impression.
               <div class="relative text-gray-400 focus-within:text-gray-600">
                 <label for="email" class="sr-only"></label>
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                  <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                      d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                  </svg>
+                <img class="w-[20px]" src="<?php echo RAVIG_IMG_DIR . '/a.png' ?>" alt=""srcset="">
                 </div>
                 <input type="text" placeholder="Enter your Website"
                   class="block w-full py-4 pl-10 pr-4 text-base text-black placeholder-gray-500 transition-all duration-200 border-gray-200 rounded-md sm:rounded-r-none caret-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600"

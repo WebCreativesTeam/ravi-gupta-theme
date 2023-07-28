@@ -1,5 +1,5 @@
 <!---SEO management services start-->
-<section class="relative py-10 bg-gray-100 sm:py-16 lg:py-24">
+<section id="include-section" class="relative py-10 bg-gray-100 sm:py-16 lg:py-24">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div class="flex flex-col justify-center mx-auto text-left">
           <div class="p-8">
@@ -129,71 +129,104 @@
                     class="pl-10 border border-gray-200 rounded-b-2xl"
                     id="tablelist"
                   >
-                    <ul class="list-disc">
+                  <ul class="list-disc scroll-to-section">
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="banner-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >ravi-gupta.com: Cutting-edge web development from an
-                          experienced team</a
+                          >"Ignite Online Presence with SEO Services!"</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="pricing-Plans-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our web development philosophy</a
+                          >Pricing & Plans</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="seo-services-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >How our web developers create</a
+                          >Fuel Online Success with Top SEO Services.</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="service-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Our developers are idea machines management
-                          company</a
+                          >RAVI GUPTA SEO Services</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="trested-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >The scope of our developers’ skills management
-                          services help your business grow?</a
+                          >Trusted by 30k+ companies & design teams</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="process-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Developing industry solutions</a
+                          >Our R.O.C.K.E.T process</a
                         >
                       </li>
                       <li
                         class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
                       >
                         <a
-                          href=""
+                          href="include-section"
                           class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
-                          >Get your ideal web development solution today</a
+                          >Our SEO Services: What's Included?</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="revenue-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Boost Revenue with Ravi Gupta's SEO.</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="choosing-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Choosing the Best SEO Company.</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="feedback-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >Client-feedback</a
+                        >
+                      </li>
+                      <li
+                        class="py-2 text-[18px] sm:text-[22px] font-sans text-[#222222] text-left"
+                      >
+                        <a
+                          href="faq-seo-section"
+                          class="hover:text-orange-400 hover:border-b-2 hover:border-orange-400"
+                          >SEO Services FAQs</a
                         >
                       </li>
                     </ul>

@@ -27,7 +27,7 @@
                 <div class="relative">
                   <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full"
-                      src="https://www.shoutmeloud.com/wp-content/uploads/edd/2022/06/Google-Adsense-Mastery-Guide-Cover.jpg"
+                      src="<?php echo RAVIG_IMG_DIR . '/Google-Adsense-Mastery-Guide-Cover.jpg' ?>"
                       alt="" />
                   </a>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="relative">
                   <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full"
-                      src="https://www.shoutmeloud.com/wp-content/uploads/edd/2019/04/sml-affiliate-marketing-ebook.jpg"
+                      src="<?php echo RAVIG_IMG_DIR . '/sml-affiliate-marketing-ebook.jpg' ?>"
                       alt="" />
                   </a>
                 </div>
@@ -61,7 +61,7 @@
                 <div class="relative">
                   <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full"
-                      src="https://www.shoutmeloud.com/wp-content/uploads/edd/2022/06/WordPress-Book-Compact-cover.jpeg"
+                      src="<?php echo RAVIG_IMG_DIR . '/WordPress-Book-Compact-cover.jpeg' ?>"
                       alt="" />
                   </a>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="relative">
                   <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full"
-                      src="https://www.shoutmeloud.com/wp-content/uploads/edd/2019/04/sml-affiliate-marketing-ebook.jpg"
+                      src="<?php echo RAVIG_IMG_DIR . '/sml-affiliate-marketing-ebook.jpg' ?>"
                       alt="" />
                   </a>
                 </div>
@@ -107,7 +107,7 @@
                 <div class="relative">
                   <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full"
-                      src="https://www.shoutmeloud.com/wp-content/uploads/edd/2022/06/Google-Adsense-Mastery-Guide-Cover.jpg"
+                      src="<?php echo RAVIG_IMG_DIR . '/Google-Adsense-Mastery-Guide-Cover.jpg' ?>"
                       alt="" />
                   </a>
                 </div>
@@ -124,7 +124,7 @@
                 <div class="relative">
                   <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                     <img class="object-cover w-full h-full"
-                      src="https://www.shoutmeloud.com/wp-content/uploads/edd/2022/06/WordPress-Book-Compact-cover.jpeg"
+                      src="<?php echo RAVIG_IMG_DIR . '/WordPress-Book-Compact-cover.jpeg' ?>"
                       alt="" />
                   </a>
                 </div>
