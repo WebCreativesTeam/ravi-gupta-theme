@@ -44,6 +44,40 @@ function save_trending_meta_box($post_id) {
 add_action('save_post', 'save_trending_meta_box');
 
 
+
+
+
+add_action( 'template_redirect', 'subscription_redirect_post' );
+
+function subscription_redirect_post() {
+  $queried_post_type = get_query_var('post_type');
+  if ( is_single() ) {
+    if('ebook' ==  $queried_post_type || 'course' ==  $queried_post_type || 'tool' ==  $queried_post_type) {
+    wp_redirect( home_url('/'), 301 );
+    exit;
+    }
+  }
+}
+
+add_action( 'template_redirect', 'redirect_to_404' );
+
+function redirect_to_404() {
+    // check if the page is the one you want to redirect
+    if ( is_page( 'services' ) ) {
+        // send user to the 404 page
+        global $wp_query;
+        $wp_query->set_404();
+        status_header( 404 );
+        get_template_part( 404 );
+        exit();
+    }
+}
+
+
+
+
+
+
 add_action( 'after_setup_theme', 'blankslate_setup' );
 function blankslate_setup() {
 load_theme_textdomain( 'blankslate', get_template_directory() . '/languages' );

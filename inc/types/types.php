@@ -35,17 +35,17 @@ function ravig_ebook_posttype() {
 	$args = array(
 		'labels'             => $labels,
 		'public'             => true,
-		'publicly_queryable' => false,
+		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'menu_icon'          => 'dashicons-book',
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'eBook' ),
+		'rewrite'            => array( 'slug' => 'ebook' ),
 		'capability_type'    => 'post',
-		'has_archive'        => true,
+		'has_archive'        => false,
 		'hierarchical'       => false,
 		'menu_position'      => null,
-		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+		'supports'           => array( 'title', 'editor', 'author', 'thumbnail' ),
 	);
 
 	register_post_type( 'ebook', $args );
@@ -90,16 +90,18 @@ function ravig_course_posttype() {
 		'labels'             => $labels,
 		'public'             => true,
 		'menu_icon'          => 'dashicons-awards',
-		'publicly_queryable' => false,
+		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
+		// 'query_var'          => false,
+		// 'rewrite'            => false,
 		'rewrite'            => array( 'slug' => 'course' ),
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => null,
-		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+		'supports'           => array( 'title', 'editor', 'author', 'thumbnail'),
 	);
 
 	register_post_type( 'course', $args );
@@ -113,54 +115,54 @@ add_action( 'init', 'ravig_course_posttype' );
  *
  * @see get_post_type_labels() for label keys.
  */
-function ravig_deal_posttype() {
-	$labels = array(
-		'name'                  => _x( 'Deals', 'Post type general name', 'textdomain' ),
-		'singular_name'         => _x( 'Deal', 'Post type singular name', 'textdomain' ),
-		'menu_name'             => _x( 'Deals', 'Admin Menu text', 'textdomain' ),
-		'name_admin_bar'        => _x( 'Deal', 'Add New on Toolbar', 'textdomain' ),
-		'add_new'               => __( 'Add New', 'textdomain' ),
-		'add_new_item'          => __( 'Add New Deal', 'textdomain' ),
-		'new_item'              => __( 'New Deal', 'textdomain' ),
-		'edit_item'             => __( 'Edit Deal', 'textdomain' ),
-		'view_item'             => __( 'View Deal', 'textdomain' ),
-		'all_items'             => __( 'All Deals', 'textdomain' ),
-		'search_items'          => __( 'Search Deals', 'textdomain' ),
-		'parent_item_colon'     => __( 'Parent Deals:', 'textdomain' ),
-		'not_found'             => __( 'No deals found.', 'textdomain' ),
-		'not_found_in_trash'    => __( 'No deals found in Trash.', 'textdomain' ),
-		'featured_image'        => _x( 'Deal Cover Image', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain' ),
-		'set_featured_image'    => _x( 'Set cover image', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
-		'remove_featured_image' => _x( 'Remove cover image', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
-		'use_featured_image'    => _x( 'Use as cover image', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
-		'archives'              => _x( 'Deal archives', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'textdomain' ),
-		'insert_into_item'      => _x( 'Insert into deal', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'textdomain' ),
-		'uploaded_to_this_item' => _x( 'Uploaded to this deal', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'textdomain' ),
-		'filter_items_list'     => _x( 'Filter deals list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'textdomain' ),
-		'items_list_navigation' => _x( 'Deals list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'textdomain' ),
-		'items_list'            => _x( 'Deals list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'textdomain' ),
-	);
+// function ravig_deal_posttype() {
+// 	$labels = array(
+// 		'name'                  => _x( 'Deals', 'Post type general name', 'textdomain' ),
+// 		'singular_name'         => _x( 'Deal', 'Post type singular name', 'textdomain' ),
+// 		'menu_name'             => _x( 'Deals', 'Admin Menu text', 'textdomain' ),
+// 		'name_admin_bar'        => _x( 'Deal', 'Add New on Toolbar', 'textdomain' ),
+// 		'add_new'               => __( 'Add New', 'textdomain' ),
+// 		'add_new_item'          => __( 'Add New Deal', 'textdomain' ),
+// 		'new_item'              => __( 'New Deal', 'textdomain' ),
+// 		'edit_item'             => __( 'Edit Deal', 'textdomain' ),
+// 		'view_item'             => __( 'View Deal', 'textdomain' ),
+// 		'all_items'             => __( 'All Deals', 'textdomain' ),
+// 		'search_items'          => __( 'Search Deals', 'textdomain' ),
+// 		'parent_item_colon'     => __( 'Parent Deals:', 'textdomain' ),
+// 		'not_found'             => __( 'No deals found.', 'textdomain' ),
+// 		'not_found_in_trash'    => __( 'No deals found in Trash.', 'textdomain' ),
+// 		'featured_image'        => _x( 'Deal Cover Image', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain' ),
+// 		'set_featured_image'    => _x( 'Set cover image', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+// 		'remove_featured_image' => _x( 'Remove cover image', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+// 		'use_featured_image'    => _x( 'Use as cover image', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+// 		'archives'              => _x( 'Deal archives', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'textdomain' ),
+// 		'insert_into_item'      => _x( 'Insert into deal', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'textdomain' ),
+// 		'uploaded_to_this_item' => _x( 'Uploaded to this deal', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'textdomain' ),
+// 		'filter_items_list'     => _x( 'Filter deals list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'textdomain' ),
+// 		'items_list_navigation' => _x( 'Deals list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'textdomain' ),
+// 		'items_list'            => _x( 'Deals list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'textdomain' ),
+// 	);
 
-	$args = array(
-		'labels'             => $labels,
-		'public'             => true,
-		'menu_icon'          => 'dashicons-welcome-learn-more',
-		'publicly_queryable' => false,
-		'show_ui'            => true,
-		'show_in_menu'       => true,
-		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'deal' ),
-		'capability_type'    => 'post',
-		'has_archive'        => true,
-		'hierarchical'       => false,
-		'menu_position'      => null,
-		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
-	);
+// 	$args = array(
+// 		'labels'             => $labels,
+// 		'public'             => true,
+// 		'menu_icon'          => 'dashicons-welcome-learn-more',
+// 		'publicly_queryable' => false,
+// 		'show_ui'            => true,
+// 		'show_in_menu'       => true,
+// 		'query_var'          => true,
+// 		'rewrite'            => array( 'slug' => 'deal' ),
+// 		'capability_type'    => 'post',
+// 		'has_archive'        => true,
+// 		'hierarchical'       => false,
+// 		'menu_position'      => null,
+// 		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+// 	);
 
-	register_post_type( 'deal', $args );
-}
+// 	register_post_type( 'deal', $args );
+// }
 
-add_action( 'init', 'ravig_deal_posttype' );
+// add_action( 'init', 'ravig_deal_posttype' );
 
 
 /**
@@ -209,10 +211,58 @@ function ravig_tool_posttype() {
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => null,
-		'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+		'supports'           => array( 'title', 'editor', 'author', 'thumbnail' ),
 	);
 
 	register_post_type( 'tool', $args );
 }
 
 add_action( 'init', 'ravig_tool_posttype' );
+
+
+function add_tool_meta_box() {
+    add_meta_box(
+        'tool_settings_meta_box',
+        'Tool Settings',
+        'tool_settings_meta_box_html',
+        'tool'
+    );
+}
+add_action('add_meta_boxes', 'add_tool_meta_box');
+
+function tool_settings_meta_box_html($post) {
+    $is_tool_on_deal = get_post_meta($post->ID, 'tool_on_deal', true);
+    $affiliate_link = get_post_meta($post->ID, 'affiliate_link', true);
+    $deal_title = get_post_meta($post->ID, 'deal_title', true);
+    ?>
+    <label for="tool_on_deal">Is the tool on any deal?</label>
+    <input type="checkbox" id="tool_on_deal" name="tool_on_deal" value="yes" <?php checked($is_tool_on_deal, 'yes'); ?> /><br>
+    <br/>
+    <label for="affiliate_link">Affiliate Link</label>
+    <input style="width: 100%;" type="text" id="affiliate_link" name="affiliate_link" value="<?php echo esc_attr($affiliate_link); ?>" /><br>
+    <br/>
+    <label for="deal_title">Deal Title</label>
+    <input style="width: 100%;" type="text" id="deal_title" name="deal_title" value="<?php echo esc_attr($deal_title); ?>" />
+    <?php
+}
+
+function save_tool_meta_box_data($post_id) {
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE)
+        return;
+    if (!current_user_can('edit_post', $post_id))
+        return;
+    
+    $is_tool_on_deal = isset($_POST['tool_on_deal']) ? 'yes' : 'no';
+    update_post_meta($post_id, 'tool_on_deal', $is_tool_on_deal);
+
+    if (isset($_POST['affiliate_link'])) {
+        $affiliate_link = sanitize_text_field($_POST['affiliate_link']);
+        update_post_meta($post_id, 'affiliate_link', $affiliate_link);
+    }
+
+    if (isset($_POST['deal_title'])) {
+        $deal_title = sanitize_text_field($_POST['deal_title']);
+        update_post_meta($post_id, 'deal_title', $deal_title);
+    }
+}
+add_action('save_post', 'save_tool_meta_box_data');
