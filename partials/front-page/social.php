@@ -22,10 +22,14 @@ $socialFollowers = new SocialFollowersInfo();
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Facebook</h3>
-          <a href="<?php echo $socialLinks::Facebook ?>"
+          
+          <div class="mt-5">
+            <a target="_blank"  href="<?php echo $socialLinks::Facebook ?>"
             class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
             <?php echo $socialFollowers::Facebook. ' Followers';?>
           </a>
+          </div>
+          
         </div>
 
         <div>
@@ -37,10 +41,12 @@ $socialFollowers = new SocialFollowersInfo();
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Instagram</h3>
-          <a href="<?php echo $socialLinks::Instagram ?>"
-            class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            <?php echo $socialFollowers::Instagram. ' Followers';?>
-          </a>
+          <div class="mt-5">
+            <a target="_blank"  href="<?php echo $socialLinks::Instagram ?>"
+              class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
+              <?php echo $socialFollowers::Instagram. ' Followers';?>
+            </a>
+          </div>
         </div>
 
         <div>
@@ -52,10 +58,12 @@ $socialFollowers = new SocialFollowersInfo();
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Twitter</h3>
-          <a href="<?php echo $socialLinks::Twitter ?>"
-            class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            <?php echo $socialFollowers::Twitter. ' Followers';?>
-          </a>
+          <div class="mt-5">
+            <a target="_blank"  href="<?php echo $socialLinks::Twitter ?>"
+              class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
+              <?php echo $socialFollowers::Twitter. ' Followers';?>
+            </a>
+          </div>
         </div>
 
         <div>
@@ -67,10 +75,12 @@ $socialFollowers = new SocialFollowersInfo();
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">LinkedIn</h3>
-          <a href="<?php echo $socialLinks::LinkedIn ?>"
-            class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            <?php echo $socialFollowers::LinkedIn. ' Followers';?>
-          </a>
+          <div class="mt-5">
+            <a target="_blank"  href="<?php echo $socialLinks::LinkedIn ?>"
+              class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
+              <?php echo $socialFollowers::LinkedIn. ' Followers';?>
+            </a>
+          </div>
         </div>
 
         <div>
@@ -82,10 +92,12 @@ $socialFollowers = new SocialFollowersInfo();
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Youtube</h3>
-          <a href="<?php echo $socialLinks::Youtube ?>"
-            class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            <?php echo $socialFollowers::Youtube . ' Followers';?>
-          </a>
+          <div class="mt-5">
+            <a target="_blank"  href="<?php echo $socialLinks::Youtube ?>"
+              class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
+              <?php echo $socialFollowers::Youtube . ' Followers';?>
+            </a>
+          </div>
         </div>
       </div>
     </div>

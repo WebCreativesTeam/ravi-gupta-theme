@@ -24,7 +24,7 @@
                     </div>
                     <div>
                       <div>
-                        <h6 class="text-sm">Based on 1000+ Reviews on</h6>
+                        <h6 class="text-sm text-gray-400">Based on 1000+ Reviews on</h6>
                       </div>
                     </div>
 
