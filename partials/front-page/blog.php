@@ -99,7 +99,7 @@
         <div class="grid w-full grid-cols-1 md:grid-cols-1 categ" id="Blogging">
           <div class="flex flex-row justify-between w-full lg:visible">
             <h1 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl ">Blogging</h1>
-            <a href="./blog.html"
+            <a href="<?php echo home_url('/blog'); ?>"
               class="px-3 py-2 font-sans text-xl font-medium text-black border-0 rounded bg-gray-50">View
               All <i class="fa-solid fa-arrow-right"></i></a>
           </div>
