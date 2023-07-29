@@ -11,10 +11,10 @@
         </div>
 
         <div class="hidden lg:flex lg:items-center lg:space-x-3">
-          <button onclick="window.location.href='https://www.youtube.com/channel/UCFkiY1NEuNJYsr24DlVMpuw'"
+          <a href="https://www.youtube.com/channel/UCFkiY1NEuNJYsr24DlVMpuw"
             class="invisible h-12 px-8 py-2 text-xl font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
             <i class="fa-brands fa-youtube"></i> View More
-          </button>
+          </a>
         </div>
       </div>
 

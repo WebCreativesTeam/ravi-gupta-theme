@@ -8,7 +8,7 @@
               Recommended Tools
             </h2>
             <div class="text-left">
-              <button type="submit" onclick="window.location.href='/recommended.html'"
+              <a href="<?php echo home_url('/recommended-tools'); ?>"
                 class="inline-flex items-center justify-center invisible px-3 py-2 mt-3 text-xl font-semibold text-white transition-all duration-200 bg-[#ee4a03] border border-transparent rounded-md lg:visible focus:outline-none hover:[#ee4a03] focus:bg-[#ee4a03]">
                 View All Tools <i class="mt-1 ml-1 fa-solid fa-arrow-right"></i></a>
               </button>
@@ -32,7 +32,7 @@
             <?php
             $args = array(
                 'post_type' => 'tool',
-                'posts_per_page' => 12,
+                'posts_per_page' => 4,
                 'paged' => $paged
             );
             $loop = new WP_Query($args);
