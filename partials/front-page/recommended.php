@@ -58,7 +58,7 @@
                                     <?php the_excerpt(); ?>
                                 </a>
                             </p>
-                            <a href="<?php the_permalink(); ?>" class="inline-flex items-center justify-center px-3 py-2 mt-5 font-semibold text-white uppercase transition-all duration-200 bg-[#ee4a03] border border-transparent rounded-md focus:outline-none hover:bg-[#ee4a03] focus:bg-[#ee4a03]">Read More</a>
+                            <a href="<?php the_permalink(); ?>" class="inline-flex items-center justify-center px-3 py-2 mt-5 font-semibold text-white uppercase transition-all duration-200 bg-[#ee4a03] border border-transparent rounded-md focus:outline-none hover:bg-[#ee4a03] focus:bg-[#ee4a03]">Get Now</a>
                         </div>
                     </div>
                 </div>
