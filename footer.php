@@ -1,4 +1,6 @@
- <!-- Footer Section STARTS -->
+<?php $contact_info = new ContactInfo(); ?>
+<?php $socialLinks = new SocialLinks(); ?>
+<!-- Footer Section STARTS -->
  <section class="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div class="grid grid-cols-2 md:col-span-3 lg:grid-cols-8 gap-y-16 gap-x-12">
@@ -25,21 +27,21 @@
 
           <ul class="mt-6 space-y-4">
             <li>
-              <a href="./about.html" title=""
+              <a href="<?php echo home_url('/about-us'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 About
               </a>
             </li>
 
             <li>
-              <a href="./contact-us.html" title=""
+              <a href="<?php echo home_url('/contact-us'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
-                Content us
+                Contact us
               </a>
             </li>
 
             <li>
-              <a href="./blog.html" title=""
+              <a href="<?php echo home_url('/blog'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Our Blog
               </a>
@@ -54,34 +56,34 @@
 
           <ul class="mt-6 space-y-4">
             <li>
-              <a href="./services/digital-marketing.html" title=""
+              <a href="<?php echo home_url('//services/digital-marketing'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Digital Marketing
               </a>
             </li>
 
             <li>
-              <a href="./services/social-media-marketing.html" title=""
+              <a href="<?php echo home_url('/services/social-media-marketing'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Social Media Marketing
               </a>
             </li>
 
             <li>
-              <a href="./services/website-design.html" title=""
+              <a href="<?php echo home_url('/services/website-design'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Web Design
               </a>
             </li>
 
             <li>
-              <a href="./services/website-development.html" title=""
+              <a href="<?php echo home_url('/services/website-development'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Web Development
               </a>
             </li>
             <li>
-              <a href="./services/search-engine-optimization.html" title=""
+              <a href="<?php echo home_url('/services/search-engine-optimization'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 SEO
               </a>
@@ -96,34 +98,34 @@
 
           <ul class="mt-6 space-y-4">
             <li>
-              <a href="./ebooks.html" title=""
+              <a href="<?php echo home_url('/ebooks'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Ebooks
               </a>
             </li>
 
             <li>
-              <a href="./courses.html" title=""
+              <a href="<?php echo home_url('/courses'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Courses
               </a>
             </li>
 
             <li>
-              <a href="https://www.youtube.com/channel/UCFkiY1NEuNJYsr24DlVMpuw" title=""
+              <a href="<?php echo $socialLinks::Youtube; ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Youtube
               </a>
             </li>
 
             <li>
-              <a href="./recommended.html" title=""
+              <a href="<?php echo home_url('/recommended-tools'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Tools
               </a>
             </li>
             <li>
-              <a href="./deals.html" title=""
+              <a href="<?php echo home_url('/todays-deal'); ?>" title=""
                 class="flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
                 Popular Deals
               </a>
@@ -136,23 +138,12 @@
             Subscribe to newsletter
           </p>
 
-          <form action="#" method="POST" class="subscribe-form">
-            <div>
-              <label for="email" >Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Your Email Address"
-              />
-              <input type="submit" value="Subscribe" >
-            </div>
-          </form>
+          <?php echo do_shortcode('[contact-form-7 id="81" title="Footer Form" html_class="subscribe-form" ]'); ?>
 
-          <a href=""
+          <a href="<?php echo home_url('/');?>"
             class="pt-5 pl-2 flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
-            <img src="./src/assest/icons8-email-24.png" alt="">&nbsp;
-            contact@ravi-gupta.com</a>
+            <img src="<?php echo RAVIG_IMG_DIR . '/email.png' ?>" alt="">&nbsp;
+            <?php echo $contact_info::Email; ?></a>
           <div class="flex flex-row items-center">
             <svg xmlns="http://www.w3.org/2000/svg"
               class="inline-block w-6 pt-5 pl-2 text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]"
@@ -160,9 +151,12 @@
               <path
                 d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
             </svg>
+            <a href="tel:<?php echo str_replace(' ', '', $contact_info::Phone);  ?>">
             <h1
               class="pt-5 pl-2 flex text-base text-black transition-all duration-200 hover:text-[#ee4a03] focus:text-[#ee4a03]">
-              +91 9170387679</h1>
+              <?php echo $contact_info::Phone; ?>
+              </h1>
+            </a>
           </div>
         </div>
       </div>
@@ -171,9 +165,9 @@
 
       <p class="text-sm text-center text-gray-600">
         © 2008-2023: Ravi Gupta | 
-        <a href="/contact-us.html" class="href">Contact Us</a> | 
-        <a href="">Privacy Policy</a> | 
-        <a href="">Disclaimer & Legal</a>
+        <a href="<?php echo home_url('/contact-us'); ?>" class="href">Contact Us</a> | 
+        <a href="<?php echo home_url('/privacy-policy'); ?>">Privacy Policy</a> | 
+        <a href="<?php echo home_url('/legal'); ?>">Disclaimer & Legal</a>
       </p>
     </div>
   </section>

@@ -31,7 +31,7 @@
                 amet sint.
               </p>
 
-              <?php echo do_shortcode('[contact-form-7 id="62" title="Contact Us Page Form" html_class="contact-form"]' ); ?>
+              <?php echo do_shortcode('[contact-form-7 id="82" title="Home Page Form" html_class="contact-form"]' ); ?>
 
             </div>
           </div>

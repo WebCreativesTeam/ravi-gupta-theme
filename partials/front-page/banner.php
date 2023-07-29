@@ -18,7 +18,7 @@
           Get More Traffic More Customers More Revenue With Digital Marketing Join Our Newsletter
         </p>
         
-        <?php echo do_shortcode('[contact-form-7 id="75" title="Home Page Banner" html_class="send-proposal"]');?>
+        <?php echo do_shortcode('[contact-form-7 id="75" title="Home Page Banner" html_class="enroll-now"]');?>
       </div>
     </div>
   </section>
