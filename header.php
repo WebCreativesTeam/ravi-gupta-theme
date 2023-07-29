@@ -1,3 +1,4 @@
+<?php $contact_info = new ContactInfo(); ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -55,7 +56,7 @@
             <path
               d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z" />
           </svg>
-          <h1 class="pl-2 text-xl font-bold text-black xl:text-2xl xl:pl-4">+91 9170387679</h1>
+          <h1 class="pl-2 text-xl font-bold text-black xl:text-2xl xl:pl-4"><?php echo $contact_info::Phone; ?></h1>
         </div>
       </div>
     </div>
@@ -93,7 +94,7 @@
 
         <div
           class="flex flex-col gap-4 p-6 ml-5 text-sm lg:flex-grow lg:p-0 xl:text-base lg:flex-row lg:gap-2 xl:gap-6 lg:items-center">
-          <a href="./index.html" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
+          <a href="<?php echo home_url('/'); ?>" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
             Home
           </a>
           <div tabindex="0"
@@ -110,15 +111,15 @@
               class="h-0 overflow-hidden transition-all duration-150 ease-in-out pointer-events-none drop-down lg:drop-shadow-md lg:absolute lg:h-auto lg:translate-y-5 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-hover:pointer-events-auto ">
               <div
                 class="flex flex-col p-4 mt-2 bg-gray-50 lg:border-gray-100 rounded-md   lg:border  lg:border-solid lg:px-2 min-w-[150px]">
-                <a href="./services/search-engine-optimization.html"
+                <a href="<?php echo home_url('/services/search-engine-optimization'); ?>"
                   class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Search Engine Optimization </a>
-                <a href="./services/digital-marketing.html"
+                <a href="<?php echo home_url('/services/digital-marketing'); ?>"
                   class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Digital Marketing</a>
-                <a href="./services/social-media-marketing.html"
+                <a href="<?php echo home_url('/services/social-media-marketing'); ?>"
                   class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Social Media Marketing</a>
-                <a href="./services/website-design.html"
+                <a href="<?php echo home_url('/services/website-design'); ?>"
                   class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Website Design</a>
-                <a href="./services/website-development.html"
+                <a href="<?php echo home_url('/services/website-development'); ?>"
                   class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Website Development</a>
               </div>
             </div>
@@ -137,28 +138,28 @@
               class="h-0 overflow-hidden transition-all duration-150 ease-in-out pointer-events-none drop-down lg:drop-shadow-md lg:absolute lg:h-auto lg:translate-y-5 lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:opacity-100 lg:group-hover:pointer-events-auto ">
               <div
                 class="flex flex-col p-4 mt-2 bg-gray-50 lg:border-gray-100 rounded-md   lg:border  lg:border-solid lg:px-2 min-w-[150px]">
-                <a href="./ebooks.html" class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Ebooks </a>
-                <a href="./courses.html" class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Courses</a>
+                <a href="<?php echo home_url('/ebooks'); ?>" class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Ebooks </a>
+                <a href="<?php echo home_url('/courses'); ?>" class="p-2 py-1 hover:bg-[#ee4a03] hover:text-white rounded-md">Courses</a>
 
               </div>
             </div>
           </div>
-          <a href="./blog.html" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
+          <a href="<?php echo home_url('/blog'); ?>" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
             Our Blog
           </a>
 
-          <a href="./contact-us.html" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
+          <a href="<?php echo home_url('/contact-us'); ?>" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
             Contact Us
           </a>
-          <a href="./about.html" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
+          <a href="<?php echo home_url('/about-us'); ?>" class="block  lg:inline-block lg:mt-0 text-black hover:text-[#ee4a03] mr-4">
             About
           </a>
-          <a href='#'
+          <a href='<?php echo home_url('/'); ?>'
             class=" text-sm px-6 self-stretch flex items-center py-2 leading-none border rounded text-white border-transparent bg-[#ee4a03] hover:border-[#ee4a03] hover:text-[#ee4a03] hover:bg-white w-fit lg:mt-0">
             Write for us
           </a>
           
-          <a href="#_"
+          <a href="<?php echo home_url('/contact-us'); ?>"
             class="rounded px-3.5 py-2  overflow-hidden relative group cursor-pointer border-2 font-medium border-[#ee4a03] text-white">
             <span
               class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#ee4a03] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
