@@ -31,57 +31,8 @@
                 amet sint.
               </p>
 
-              <form action="#" method="POST" class="mt-4">
-                <div class="space-y-6">
-                  <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      Your name
-                    </label>
-                    <div class="mt-2.5 relative">
-                      <input type="text" name="" id="" placeholder="Enter your full name"
-                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-[#ee4a03] focus:border-[#ee4a03] caret-[#ee4a03]" />
-                    </div>
-                  </div>
+              <?php echo do_shortcode('[contact-form-7 id="62" title="Contact Us Page Form" html_class="contact-form"]' ); ?>
 
-                  <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      Email address
-                    </label>
-                    <div class="mt-2.5 relative">
-                      <input type="text" name="" id="" placeholder="Enter your full name"
-                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-[#ee4a03] focus:border-[#ee4a03] caret-[#ee4a03]" />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      Phone number
-                    </label>
-                    <div class="mt-2.5 relative">
-                      <input type="text" name="" id="" placeholder="Enter your Phone number"
-                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-[#ee4a03]0 focus:border-[#ee4a03] caret-[#ee4a03]" />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label for="" class="text-base font-medium text-gray-900">
-                      Project brief
-                    </label>
-                    <div class="mt-2.5 relative">
-                      <textarea name="" id="" placeholder="Enter your project brief"
-                        class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:ring-[#ee4a03] focus:border-[#ee4a03] caret-[#ee4a03]"
-                        rows="4"></textarea>
-                    </div>
-                  </div>
-
-                  <div>
-                    <button type="submit"
-                      class="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-[#ee4a03] border border-transparent rounded-md focus:outline-none hover:bg-[#ee4a03] focus:bg-[#ee4a03]">
-                      Get Free Quote
-                    </button>
-                  </div>
-                </div>
-              </form>
             </div>
           </div>
         </div>

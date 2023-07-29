@@ -62,7 +62,7 @@
           <div class="flex flex-row justify-between">
             <a href="<?php echo $affiliate_link ? $affiliate_link : get_the_permalink(); ?>"
               class="inline-flex items-center justify-center px-3 py-2 mt-3 font-semibold text-white transition-all duration-200 bg-[#ee4a03] rounded-md hover:bg-[#ee4a03] focus:bg-[#ee4a03]">
-              Read More
+              Get Deal
             </a>
 
           </div>

@@ -1,4 +1,10 @@
+<?php
 
+$socialLinks = new SocialLinks();
+$socialFollowers = new SocialFollowersInfo();
+
+
+?>
   <!-- Social STARTS -->
   <section class="py-10 bg-white sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -10,16 +16,16 @@
         <div>
           <div class="flex items-center justify-center w-20 h-20 mx-auto bg-orange-100 rounded-full">
             <svg class="w-10 h-10 text-orange-600 " xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 320 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              viewBox="0 0 320 512">
               <path
                 d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Facebook</h3>
-          <button onclick="window.location.href='https://www.facebook.com/raviguptaseo'"
+          <a href="<?php echo $socialLinks::Facebook ?>"
             class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            21k+ Followers
-          </button>
+            <?php echo $socialFollowers::Facebook. ' Followers';?>
+          </a>
         </div>
 
         <div>
@@ -31,10 +37,10 @@
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Instagram</h3>
-          <button onclick="window.location.href='https://www.instagram.com/raviguptaseoexpert/'"
+          <a href="<?php echo $socialLinks::Instagram ?>"
             class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            3k+ Followers
-          </button>
+            <?php echo $socialFollowers::Instagram. ' Followers';?>
+          </a>
         </div>
 
         <div>
@@ -46,10 +52,10 @@
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Twitter</h3>
-          <button onclick="window.location.href='https://twitter.com/Ravi_Gupta_seo'"
+          <a href="<?php echo $socialLinks::Twitter ?>"
             class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            200+ Followers
-          </button>
+            <?php echo $socialFollowers::Twitter. ' Followers';?>
+          </a>
         </div>
 
         <div>
@@ -61,10 +67,10 @@
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">LinkedIn</h3>
-          <button onclick="window.location.href='https://www.linkedin.com/in/ravi-gupta-seo-expert/'"
+          <a href="<?php echo $socialLinks::LinkedIn ?>"
             class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            17K+ Followers
-          </button>
+            <?php echo $socialFollowers::LinkedIn. ' Followers';?>
+          </a>
         </div>
 
         <div>
@@ -76,10 +82,10 @@
             </svg>
           </div>
           <h3 class="mt-8 text-lg font-semibold text-black">Youtube</h3>
-          <button onclick="window.location.href='https://www.youtube.com/channel/UCFkiY1NEuNJYsr24DlVMpuw'"
+          <a href="<?php echo $socialLinks::Youtube ?>"
             class="min-h-12 px-8 py-2 text-base font-medium bg-transparent border border-gray-900 rounded-lg lg:visible lg:mt-10 hover:bg-[#ee4a03] hover:text-white hover:border-[#ee4a03]">
-            14 subscribers
-          </button>
+            <?php echo $socialFollowers::Youtube . ' Followers';?>
+          </a>
         </div>
       </div>
     </div>

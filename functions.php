@@ -15,6 +15,7 @@ define('RAVIG_PARTIALS_DIR', RAVIG_DIR_PATH . '/partials');
 include_once(RAVIG_UTILS_DIR . '/enqueue.php');
 include_once(RAVIG_UTILS_DIR . '/helpers.php');
 include_once(RAVIG_TYPES_DIR . '/types.php');
+include_once( RAVIG_DIR_PATH . '/settings.php');
 
 add_filter('wpcf7_autop_or_not', '__return_false');
 // Adding functionality for Trending Posts

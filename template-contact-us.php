@@ -1,6 +1,6 @@
 <?php /* Template Name: Contact Us */ ?>
 <?php get_header(); ?> 
- 
+<?php $contact_info = new ContactInfo(); ?>
 <section
       class="py-10 bg-black bg-right bg-no-repeat bg-cover sm:py-16 lg:py-18"
       style="
@@ -36,7 +36,7 @@
                 </div>
                 <div class="p-3 font-bold text-black">
                   <h1 class="text-xl">SPEAK WITH A STRATEGIST</h1>
-                  <h1 class="text-3xl">+91 9170387679</h1>
+                  <h1 class="text-3xl"><?php echo $contact_info::Phone; ?></h1>
                 </div>
               </div>
             </div>
