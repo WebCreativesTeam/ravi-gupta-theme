@@ -17,27 +17,8 @@
         <p class="mt-4 text-base text-gray-200">
           Get More Traffic More Customers More Revenue With Digital Marketing Join Our Newsletter
         </p>
-
-        <form action="#" method="POST" class="mt-8 lg:mt-12">
-          <div class="flex flex-col items-center sm:flex-row sm:justify-center">
-            <div class="flex-1 w-full min-w-0 px-4 sm:px-0">
-              <div class="relative text-gray-400 focus-within:text-gray-600">
-                <label for="email" class="sr-only"></label>
-                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                <img class="w-[20px]" src="<?php echo RAVIG_IMG_DIR . '/a.png' ?>" alt=""srcset="">
-                </div>
-                <input type="email" name="email" id="email" placeholder="Enter email address"
-                  class="block w-full py-4 pl-10 pr-4 text-base text-black placeholder-gray-500 transition-all duration-200 border-gray-200 rounded-md sm:rounded-r-none caret-blue-600 focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
-                  required />
-              </div>
-            </div>
-
-            <button type="submit"
-              class="inline-flex items-center justify-center flex-shrink-0 w-auto px-4 py-4 mt-4 font-semibold text-white transition-all duration-200 bg-[#ee4a03] border border-transparent rounded-md sm:mt-0 sm:rounded-l-none sm:w-auto hover:bg-gray-900 focus:bg-gray-900">
-              Enroll Now For FREE
-            </button>
-          </div>
-        </form>
+        
+        <?php echo do_shortcode('[contact-form-7 id="75" title="Home Page Banner" html_class="send-proposal"]');?>
       </div>
     </div>
   </section>
