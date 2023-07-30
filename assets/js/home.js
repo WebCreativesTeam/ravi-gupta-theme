@@ -62,27 +62,33 @@ function showcourses() {
 
 //blog Categories
 
-var Categories = document.getElementsByClassName('elem');
-
-for (var i = 0; i < Categories.length; i++) {
-    Categories[i].addEventListener('click', function (event) {
-        event.preventDefault();
-        var targetCategoryId = this.getAttribute('href');
-        var targetCategory = document.getElementById(targetCategoryId);
-        console.log(targetCategoryId);
-
-        var contantCategory = document.getElementsByClassName('categ');
-        console.log(contantCategory);
-
-        for (var j = 0; j < contantCategory.length; j++) {
-            if (contantCategory[j].classList.contains('grid')) {
-                contantCategory[j].classList.remove("grid");
-                contantCategory[j].classList.add("hidden");
-            }
-        }
-
-        targetCategory.classList.remove('hidden');
-        targetCategory.classList.add('grid');
-
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all category links
+    var categoryLinks = document.querySelectorAll('.elem');
+  
+    // Add click event listener to each category link
+    categoryLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent the default link behavior
+  
+        // Get the category name from the clicked link
+        var categoryName = this.textContent.trim();
+  
+        // Update the header text with the selected category name
+        document.querySelector('.categ h1').textContent = categoryName;
+  
+        // Select all post elements
+        var posts = document.querySelectorAll('.categ [data-filter]');
+  
+        // Loop through all posts and hide or show based on the category
+        posts.forEach(function(post) {
+          if (post.getAttribute('data-filter') === categoryName) {
+            post.style.display = 'flex'; // Show posts with the matching category
+          } else {
+            post.style.display = 'none'; // Hide other posts
+          }
+        });
+      });
     });
-}
+  });
+  
